@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>table invoice</title>
+        <style>
+            .side{
+                text-align:right;
+            }
+            .col{
+                background-color: #EAEAEA;
+                
+            }
+        </style>
+    </head>
+
+    <body>
+        <table style="width:100%">
+            <caption>Invoice</caption>
+            <tr>
+                <td class="col">Item/Desc.</td>
+                <td class="col">Qty.</td>
+                <td class="col">@</td>
+                <td class="col">Price</td>
+            </tr>
+            <tr>
+                <td>PaperClips(Box)</td>
+                <td class="side">100</td>
+                <td class="side">1.15</td>
+                <td class="side">115.00</td>
+            </tr>
+            <tr>
+                <td>Paper(Case)</td>
+                <td class="side">10</td>
+                <td class="side">45.99</td>
+                <td class="side">459.90</td>
+            </tr>
+            <tr>
+                <td>WastepaperBaskets</td>
+                <td class="side">2</td>
+                <td class="side">17.99</td>
+                <td class="side">35.98</td>
+            </tr>
+            <tr>
+                <td class="col" colspan="3">Subtotal</td>
+                <td class="side">610.88</td>
+            </tr>
+            <tr>
+                <td class="col" colspan="2">Tax</td>
+                <td class="side">7%</td>
+                <td class="side">42.76</td>
+            </tr>
+            <tr>
+                <td class="col" colspan="3">Total</td>
+                <td class="side">653.64</td>
+            </tr>
+        </table>
+    </body>
+</html>
