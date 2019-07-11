@@ -1,12 +1,33 @@
-div.title{
+/*헤더 시작*/
+div.header{
     background-color: #47C83E;
     color: white;
     padding-left: 20px;
 }
-h1.title{
+h1.header{
     margin-bottom: -5px;
 }
-p.title{
+p.header{
     margin-top: 0px;
     padding-bottom: 10px;
 }
+/*헤더 끝*/
+
+/*헤더 홈페이지 글구*/
+a:link.header{
+    text-decoration: underline;
+    display: inline;
+}
+a:visited.header{
+    color: purple;
+}
+/*헤더 홈페이지 글구*/
+
+/*공통 홈페이지 글구(마우스 올림시, 클릭시)*/
+a:hover{
+    color: white;
+}
+a:active{
+    color: purple;
+}
+/*공통 홈페이지 글구 끝*/
