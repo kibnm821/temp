@@ -1,0 +1,20 @@
+.a{
+    background-color: dodgerblue;
+}
+.b{
+    color: mediumseagreen;
+}
+.c{
+    border:solid violet 2px;
+    background-image: url("../images/img_tree_tranparent.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+.d{
+    background-color: #ff6347;
+}
+body{
+    background-image: url("../images/img_tree_tranparent.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
