@@ -1,0 +1,16 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+    text-align: left;
+    padding: 8px;
+    vertical-align: middle;
+}
+tr:nth-child(even){
+    background-color: #4CAF50;
+    color: white;
+}
+tr:hover{
+    background-color: yellow;
+}
