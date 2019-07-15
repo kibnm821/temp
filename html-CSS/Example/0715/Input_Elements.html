@@ -3,23 +3,55 @@
 <html>
     <head>
         <title>Input_Elements</title>
+        <link rel="stylesheet" href="./css/Input_Elements.css">
     </head>
 
     <body>
-        <form action="/index.html" method="post">
-            <input type="text" name="firstname">
-            <input type="password" name="psw">
-            <select name="cars">
-                <option value="volvo">Volvo</option>
-                <option value="audi">Audi</option>
-            </select>
-            <input type="radio" name="gender" value="male" checked> Male
-            <input type="radio" name="gender" value="female"> Female
-            <input type="checkbox" name="vehicle1" value="Bike"> I have a bike
-            <input type="checkbox" name="vehicle2" value="Car"> I have a car
-            <textarea name="message" rows="10" cols="30">Sample</textarea>
-            <button type="button" onclick="alert('Hello World!')">Click!</button>
-            <input type="submit" value="Submit"><input type="reset">
+        <!--폼 시작-->
+        <form action="./Input_Elements.html" method="post">
+            <!--계정-->
+            <div class="account">
+                <input type="text" name="firstname">
+                <input type="password" name="psw">
+            </div>
+            <!--계정 끝-->
+
+            <!--자동차-->
+            <div class="car">
+                <select name="cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="audi">Audi</option>
+                </select>
+            </div>
+            <!--자동차 끝-->
+
+            <!--성별-->
+            <div class="gender">
+                <input type="radio" name="gender" value="male" checked> Male
+                <input type="radio" name="gender" value="female"> Female
+            </div>
+            <!--성별 끝-->
+
+            <!--차량 선택-->
+            <div class="vehicle">
+                <input type="checkbox" name="vehicle1" value="Bike"> I have a bike
+                <input type="checkbox" name="vehicle2" value="Car"> I have a car
+            </div>
+            <!--차량 선택 끝-->
+
+            <!--메세지-->
+            <div class="message">
+                <textarea name="message" rows="10" cols="30">Sample</textarea>
+            </div>
+            <!--메세지 끝-->
+
+            <!--최종 결과-->
+            <div class="end">
+                <button type="button" onclick="alert('Hello World!')">Click!</button>
+                <input type="submit" value="Submit"><input type="reset">
+            </div>
+            <!--최종 결과 끝-->
         </form>
+        <!--폼 종료-->
     </body>
 </html>

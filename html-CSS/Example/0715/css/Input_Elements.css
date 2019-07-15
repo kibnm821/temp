@@ -1,0 +1,29 @@
+/*가운데 정렬*/
+body{
+    margin: 0 auto;
+    width: 960px;
+}
+/*가운데 정렬 끝*/
+
+/*계정*/
+.account{
+    margin: 20px 0px 0px 20px;
+    margin-bottom: 50px;
+}
+/*계정 끝*/
+
+/*자동차*/
+.car{
+    margin: 20px 0px 0px 20px;
+    margin-bottom: 50px;
+}
+/*자동차 끝*/
+
+/*성별*/
+.gender{
+    margin: 20px 0px 0px 20px;
+    margin-bottom: 50px;
+}
+/*성별 끝*/
+
+/**/
